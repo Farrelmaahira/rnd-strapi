@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comics",
+  "info": {
+    "singularName": "comic",
+    "pluralName": "comics",
+    "displayName": "Comic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "writer": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
